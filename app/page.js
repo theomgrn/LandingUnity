@@ -3,11 +3,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-      <main className={styles.main}>
+      <header className={styles.headerPart}>
           <p>Unity</p>
-          <p>Unity</p>
-          <p>Unity</p>
-          <p>Unity</p>
-      </main>
+      </header>
   );
 }
