@@ -1,4 +1,22 @@
 .headerPart {
   min-height: 100vh;
-  background-color: burlywood;
+}
+
+.projet, .solutions, .video {
+  scroll-margin-top: 68px;
+}
+
+.projet{
+  min-height: 100vh;
+  background-color: mediumseagreen;
+}
+
+.solutions{
+  min-height: 100vh;
+  background-color: tomato;
+}
+
+.video{
+  min-height: 100vh;
+  background-color: sandybrown;
 }
