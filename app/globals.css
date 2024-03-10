@@ -1,5 +1,5 @@
 :root {
-  /*--max-width: 1100px;*/
+  --primary: #bbc5b8;
   /*--border-radius: 12px;*/
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
   "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
@@ -26,5 +26,41 @@ li{
 a {
   text-decoration: none;
 }
+
+p{
+  font-weight: bold;
+}
+
+hr {
+  border: 1px;
+  height: 1px;
+  background: black;
+  width: 100%; ;
+  margin: 8vh 0 8vh 0;
+}
+
+#projet, #solutions, #video {
+  scroll-margin-top: 68px;
+}
+
+#accueil{
+  background-color: #ebebeb;
+}
+
+#projet{
+  min-height: 100vh;
+  background-color: black;
+}
+
+#solutions{
+  min-height: 100vh;
+  background-color: #ebebeb;
+}
+
+#video{
+  min-height: 100vh;
+  background-color: black;
+}
+
 
 
