@@ -9,7 +9,7 @@ import code from "@/app/css/code.module.css";
 export default function ActionAreaCard() {
     return (
         <div className={code.listCards}>
-            <Card className={code.card}>
+            <Card className={code.card} sx={{ border: '1px solid black' }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -17,7 +17,7 @@ export default function ActionAreaCard() {
                         image="./images/code.jpg"
                         alt="green iguana"
                     />
-                    <CardContent>
+                    <CardContent sx={{ backgroundColor: '#ebebeb' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Déplacement du joueur
                         </Typography>
@@ -28,7 +28,7 @@ export default function ActionAreaCard() {
                     </CardContent>
                 </CardActionArea>
             </Card>
-            <Card className={code.card}>
+            <Card className={code.card} sx={{ border: '1px solid black' }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -36,7 +36,7 @@ export default function ActionAreaCard() {
                         image="./images/code.jpg"
                         alt="green iguana"
                     />
-                    <CardContent>
+                    <CardContent sx={{ backgroundColor: '#ebebeb' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Porte
                         </Typography>
@@ -47,7 +47,7 @@ export default function ActionAreaCard() {
                     </CardContent>
                 </CardActionArea>
             </Card>
-            <Card className={code.card}>
+            <Card className={code.card} sx={{ border: '1px solid black' }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -55,7 +55,7 @@ export default function ActionAreaCard() {
                         image="./images/code.jpg"
                         alt="green iguana"
                     />
-                    <CardContent>
+                    <CardContent sx={{ backgroundColor: '#ebebeb' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Tiroir
                         </Typography>
