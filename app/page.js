@@ -3,6 +3,7 @@ import SouthEastIcon from '@mui/icons-material/SouthEast';
 import header from "./css/header.module.css";
 import code from "./css/code.module.css";
 import solution from "./css/solution.module.css";
+import video from "./css/video.module.css";
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
@@ -29,6 +30,30 @@ export default function Home() {
                             "mini-jeux" et des interactions sur Unity), <span className={header.colorPrimary}>Théo MAUGRAN</span> (Chargé
                             de l'import des éléments blender sur Unity, et élaboration du site web de rendu) </p>
                     </div>
+                    <Stack spacing={2} direction="row">
+                        <Button
+                            variant="outlined"
+                            onClick={() => {
+                                const link = document.createElement('a');
+                                link.href = './images/code.jpg';
+                                link.setAttribute('download', 'Evan_Thibault_Theo_F.jpg');
+                                document.body.appendChild(link);
+                                link.click();
+                                document.body.removeChild(link);
+                            }}
+                            sx={{
+                                color: "black",
+                                borderColor: "black",
+                                '&:hover': {
+                                    borderColor: "#bbc5b8",
+                                    backgroundColor: "#bbc5b8",
+                                }
+                            }}
+                        >
+                            .APK
+                        </Button>
+                    </Stack>
+
                     <div>
                         <p>10-03-2024</p>
                     </div>
@@ -230,6 +255,12 @@ export default function Home() {
                             <h4>Gameplay&nbsp;<SouthEastIcon/></h4>
                         </div>
                     </div>
+                    <div className={video.blocVideo}>
+                        <video className={video.game} controls>
+                            <source src="./images/video-unity.mp4" type="video/mp4"/>
+                        </video>
+                    </div>
+
                 </div>
             </main>
         </div>
