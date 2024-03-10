@@ -40,7 +40,7 @@ export default function ActionAreaCard() {
                             Organisation de la scène
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Il en va de même pour nos scènes, nous avons tout ranger proprement.
+                            Il en va de même pour nos scènes, nous avons tout rangé proprement.<br/> <br/>
                         </Typography>
                     </CardContent>
                 </CardActionArea>
@@ -63,7 +63,7 @@ export default function ActionAreaCard() {
                     </CardContent>
                 </CardActionArea>
             </Card>
-            <Card className={code.card}>
+            <Card className={code.card} sx={{ border: '1px solid black' }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -71,17 +71,18 @@ export default function ActionAreaCard() {
                         image="./images/drawer.png"
                         alt="image"
                     />
-                    <CardContent>
+                    <CardContent sx={{ backgroundColor: '#ebebeb' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Gestion du tiroir fermé à clé
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                            Avec ce script nous pouvons verouillé un tiroir et gérer l'insertion de la clé dans la serrure.
+                            Avec ce script nous pouvons verouillé un tiroir et gérer l'insertion de la clé dans la
+                            serrure.<br/> <br/>
                         </Typography>
                     </CardContent>
                 </CardActionArea>
             </Card>
-            <Card className={code.card}>
+            <Card className={code.card} sx={{ border: '1px solid black' }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
@@ -89,7 +90,7 @@ export default function ActionAreaCard() {
                         image="./images/keypad.png"
                         alt="image"
                     />
-                    <CardContent>
+                    <CardContent sx={{ backgroundColor: '#ebebeb' }}>
                         <Typography gutterBottom variant="h5" component="div">
                             Gestion du pad numérique
                         </Typography>
