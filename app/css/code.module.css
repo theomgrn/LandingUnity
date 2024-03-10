@@ -7,8 +7,25 @@
   gap: 5em;
 }
 
+.listCards:last-child {
+  margin-bottom: 8vh;
+}
+
 .card {
   width: 45vw;
+}
+
+.subject {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2vw 0 2vw;
+}
+
+.subject h4 {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

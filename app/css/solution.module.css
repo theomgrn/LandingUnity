@@ -1,0 +1,66 @@
+.subject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2vw 0 2vw;
+}
+
+.subject h4 {
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.solution{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.solutionMargin{
+    width: 20vw;
+}
+
+.solutionEtape{
+    width: 80vw;
+}
+
+@media (max-width: 768px) {
+    .solutionMargin{
+        width: 0 !important;
+    }
+
+    .solutionEtape{
+        width: 100vw !important;
+    }
+
+    .ligneEtape img{
+        width: 25vw !important;
+        height: 25vw !important;
+    }
+}
+
+.solutionEtape hr{
+    margin-bottom: 1vh;
+}
+
+.etape{
+    width: 15vw;
+    color: var(--primary);
+}
+
+.etapeDescription{
+    width: 15vw;
+}
+
+.ligneEtape{
+    padding : 0 2vw 0 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ligneEtape img{
+    width: 20vw;
+    height: 20vw;
+}

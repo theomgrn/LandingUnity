@@ -41,7 +41,17 @@ hr {
   margin: 8vh 0 8vh 0;
 }
 
-#projet, #solutions, #video {
+.solution{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.solution hr {
+  padding: 0 !important;
+  width: 75% !important;
+}
+
+#projet {
   scroll-margin-top: 68px;
 }
 
@@ -68,7 +78,7 @@ hr {
 
 #video{
   min-height: 100vh;
-  background-color: black;
+  background-color: #ebebeb;
 }
 
 

@@ -11,17 +11,15 @@ export default function ActionAreaCard() {
         <div className={code.listCards}>
             <Card className={code.card}>
                 <CardActionArea>
-                    <a href="../../public/images/code.jpg" download>
-                        <CardMedia
-                            component="img"
-                            height="500"
-                            image="./images/code.jpg"
-                            alt="green iguana"
-                        />
-                    </a>
+                    <CardMedia
+                        component="img"
+                        height="500"
+                        image="./images/code.jpg"
+                        alt="green iguana"
+                    />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
-                            Déplacement du joureur
+                            Déplacement du joueur
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                             Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -32,14 +30,12 @@ export default function ActionAreaCard() {
             </Card>
             <Card className={code.card}>
                 <CardActionArea>
-                    <a href="../../public/images/code.jpg" download>
-                        <CardMedia
-                            component="img"
-                            height="500"
-                            image="./images/code.jpg"
-                            alt="green iguana"
-                        />
-                    </a>
+                    <CardMedia
+                        component="img"
+                        height="500"
+                        image="./images/code.jpg"
+                        alt="green iguana"
+                    />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Porte
@@ -53,14 +49,12 @@ export default function ActionAreaCard() {
             </Card>
             <Card className={code.card}>
                 <CardActionArea>
-                    <a href="../../public/images/code.jpg" download>
-                        <CardMedia
-                            component="img"
-                            height="500"
-                            image="./images/code.jpg"
-                            alt="green iguana"
-                        />
-                    </a>
+                    <CardMedia
+                        component="img"
+                        height="500"
+                        image="./images/code.jpg"
+                        alt="green iguana"
+                    />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             Tiroir
