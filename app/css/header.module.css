@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Tilt+Warp&display=swap');
 
-.headerPart {
-    min-height: 100vh;
-}
-
 .colorPrimary {
     color: var(--primary);
 }
@@ -67,6 +63,13 @@
 
 .subject .description {
     width: 25vw;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .subject .description {
+        width: 50vw;
+    }
 }
 
 .subject svg{

@@ -6,11 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5d23b35e-6b92-4f1e-9e72-145c2dcae09f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.idea/Dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/css/header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/component/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/code.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/code.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>

@@ -1,5 +1,6 @@
 :root {
   --primary: #bbc5b8;
+  --background: #ebebeb;
   /*--border-radius: 12px;*/
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
   "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
@@ -17,6 +18,7 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: var(--background);
 }
 
 li{
@@ -44,12 +46,19 @@ hr {
 }
 
 #accueil{
+  margin-top: 1vh;
   background-color: #ebebeb;
+}
+
+@media (max-width: 768px) {
+  #accueil{
+    margin-top: 4vh;
+  }
 }
 
 #projet{
   min-height: 100vh;
-  background-color: black;
+  background-color: #ebebeb;
 }
 
 #solutions{
